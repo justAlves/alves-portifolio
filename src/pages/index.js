@@ -9,6 +9,8 @@ import emailjs from '@emailjs/browser'
 
 import Image from 'next/image'
 import avatar from '../../public/avatar.png'
+import Projeto1 from '../../public/Projeto1.png'
+import Soon from '../../public/Soon.png'
 import Programmer from '../../public/programmer.svg'
 import Card from '@/components/Card'
 
@@ -97,9 +99,9 @@ export default function Home() {
             </div>
             <div className='mt-7 grid place-items-center gap-32 lg:grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1'>
               <Fade bottom>
-                <Card title="Em breve..." subtitle="Projeto sendo desenvolvido"/>
-                <Card title="Em breve..." subtitle="Projeto sendo desenvolvido"/>
-                <Card title="Em breve..." subtitle="Projeto sendo desenvolvido"/>
+                <Card imge={Projeto1} link='https://apple-cart-demo.vercel.app' title="Loja Apple" subtitle="Front-End de uma loja de iPhones usando React e Tailwind CSS e ultilizando a API do Mercado Livre"/>
+                <Card imge={Soon} title="Em breve..." subtitle="Projeto sendo desenvolvido"/>
+                <Card imge={Soon} title="Em breve..." subtitle="Projeto sendo desenvolvido"/>
               </Fade>
             </div>
           </section>
